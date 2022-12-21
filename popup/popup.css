@@ -1,13 +1,36 @@
+html,
 body {
-  margin: 0px;
+  margin: 0;
+  background-color: #5e81ac;
+}
+
+#header {
+  color: #eceff4;
+  font-family: sans-serif;
+  font-weight: 900;
+  text-align: center;
+  padding: 0.5em;
+}
+
+#popup-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 button {
   border: none;
   padding: 0.5em;
-  width: 100%;
   text-align: center;
-  font-size: 1em;
   cursor: pointer;
-  background-color: inherit;
+  background-color: #d8dee9;
+  border-radius: 5px;
+  margin: 0 5px 5px 5px;
+  font-weight: 900;
+  color: #5e81ac;
+  font-family: sans-serif;
+}
+
+button:hover {
+  background-color: #eceff4;
 }
